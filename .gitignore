@@ -31,3 +31,45 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Ignore Maven/Gradle build folders
+/target/
+/build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse project files
+/.project
+/.classpath
+/.settings/
+
+# Ignore VS Code workspace and settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store     # macOS
+Thumbs.db     # Windows
+
+# Ignore sensitive config files (application.properties)
+application.properties
+application.yml
+
+# Ignore logs
+*.log
+
+# Ignore IDE-specific files and directories
+/.idea/
+/*.iml
+
+# Ignore dependency directories
+/.mvn/
+/.gradle/
+
+# Ignore environment variables file
+.env
+
+# Ignore Java dependency cache
+.gradle/

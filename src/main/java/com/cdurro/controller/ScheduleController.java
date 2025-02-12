@@ -5,7 +5,6 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,7 +16,6 @@ import com.cdurro.model.Schedule;
 import com.cdurro.service.ScheduleService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
 public class ScheduleController {
 	
 	@Autowired
